@@ -8,7 +8,7 @@ This repository hosts a polished, high-end landing page built specifically to sh
 
 ## 🌐 Live Preview
 
-- **Domain:** https://tokens.hub *(when deployed)*
+- **Domain:** [https://tokens.hub](https://tokens-hub-landing.vercel.app/) *(when deployed)*
 
 ---
 
