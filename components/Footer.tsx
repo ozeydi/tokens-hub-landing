@@ -1,3 +1,7 @@
+'use client';
+
+import { GitHubLogoIcon } from '@radix-ui/react-icons';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -16,8 +20,20 @@ export default function Footer() {
             Premium Web3 Domain • For Acquisition • Serious Inquiries Only
           </div>
 
-          <div className='text-gray-500 text-sm'>
-            © {currentYear} tokens.hub • All rights reserved
+          <div className='flex items-center space-x-4'>
+            <a
+              href='https://github.com/YOUR_USERNAME'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-gray-500 hover:text-white transition p-2 hover:bg-gray-800 rounded-lg'
+              title='View on GitHub'
+            >
+              <GitHubLogoIcon className='w-5 h-5' />
+            </a>
+
+            <div className='text-gray-500 text-sm'>
+              © {currentYear} tokens.hub
+            </div>
           </div>
         </div>
 
@@ -25,6 +41,17 @@ export default function Footer() {
           <p className='text-gray-500 text-sm'>
             Note: This is a domain landing page. Domain ownership will be
             transferred via secure escrow.
+          </p>
+          <p className='text-gray-500 text-xs mt-2'>
+            Built with Next.js •
+            <a
+              href='https://github.com/ozeydi/tokens-hub-landing'
+              className='text-purple-400 hover:text-purple-300 ml-1'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Source on GitHub
+            </a>
           </p>
         </div>
       </div>
