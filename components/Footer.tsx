@@ -22,7 +22,7 @@ export default function Footer() {
 
           <div className='flex items-center space-x-4'>
             <a
-              href='https://github.com/YOUR_USERNAME'
+              href='https://github.com/ozeydi/tokens-hub-landing.git'
               target='_blank'
               rel='noopener noreferrer'
               className='text-gray-500 hover:text-white transition p-2 hover:bg-gray-800 rounded-lg'
@@ -45,7 +45,7 @@ export default function Footer() {
           <p className='text-gray-500 text-xs mt-2'>
             Built with Next.js •
             <a
-              href='https://github.com/ozeydi/tokens-hub-landing'
+              href='https://github.com/ozeydi/tokens-hub-landing.git'
               className='text-purple-400 hover:text-purple-300 ml-1'
               target='_blank'
               rel='noopener noreferrer'
